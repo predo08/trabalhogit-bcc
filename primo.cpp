@@ -1,6 +1,3 @@
-## esse codigo é para achar numeros primos ##
-
-
 #include <iostream>
 using namespace std;
 
