@@ -1,5 +1,3 @@
-##programa para fazer operacao de matrizes##
-
 #include <iostream>
 using namespace std;
 
@@ -31,6 +29,7 @@ if(op == "a"){
 	for(int j = 0; j < t; j++){
 		Mr[i][j] = Ma[i][j] + Mb[i][j];
 	}
+ }
 }
 
 else if(op == "s"){
@@ -49,11 +48,13 @@ else if(op == "m"){
 		Mr[i][j] += Ma[i][q] * Mb[i][j];
 		}
 	}
+ }
 }
 
 for(int i = 0; i < t; i++){
    for(int j = 0; j < t; j++){
 	cout << Mr[i][j] << " " << endl;
+ }
 }
 
 return 0;
