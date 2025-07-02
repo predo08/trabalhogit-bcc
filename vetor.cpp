@@ -1,5 +1,3 @@
-##programa para mostrar o menor valor em um vetor##
-
 #include <iostream>
 using namespace std;
 
