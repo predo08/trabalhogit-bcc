@@ -5,8 +5,6 @@ int main(){
 
 int n;
 
-cin >> n;
-
 if(n == 2 or n == 3){
 cout << "primo" << endl;
 }

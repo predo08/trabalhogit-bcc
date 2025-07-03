@@ -5,21 +5,20 @@ int main(){
 
 int t, menor;
 
-menor = 2147483647;
-
 cin >> t;
+
+menor = 2147483647;
 
 int N[t];
 
 for(int i = 0; i < t; i++){
 
 cin >> N[i];
-
+cout << "Valor N[" << i << "]: " << N[i] << endl;
 if(N[i] < menor){
 
 menor = N[i];
-
- }
+	}
 }
 
 cout << menor << endl;
